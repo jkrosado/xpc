@@ -1,0 +1,10 @@
+.start_button {
+    background-image: url("$start$");
+}
+*:not(code) {
+    font-family: "Tahoma"!important;
+}
+.shell-icon .icon-text {
+    font-size: 11px;
+    line-height: 1;
+}

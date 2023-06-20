@@ -1,0 +1,48 @@
+/* control panel styles, © sys36, from the xp theme */
+.ctrl-app > .view > .p1 {
+    background: linear-gradient(180deg, #7AA1E6, #6375D6);
+    border-right: 1px solid rgba(255, 255, 255, 0.274);
+}
+
+.ctrl-app > .view > .p1 > .box > .title {
+    color: #215DC6;
+    background: white;
+    letter-spacing: normal;
+    text-shadow: none;
+    font-weight: bold;
+    margin-left: 0;
+    padding: 4px 5px;
+}
+
+.ctrl-app > .view > .p1 > .box > .items {
+    background: #D6DFF7;
+}
+
+.ctrl-app > .view > .p1 > .box {
+    border: 1px solid white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.ctrl-app > .view > .p2 {
+    background-color: #6375D6;
+    background-image: url("$cpl_bg$");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.ctrl-app > .view > .p2 > .item > .title,
+.ctrl-app > .view > .p2 > .cat-marker {
+    letter-spacing: normal;
+    color: white;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.ctrl-app > .view > .p2 > .cat-marker::after {
+    background: linear-gradient(45deg, #8a9ae2, #ffffff00);
+}
+
+.ctrl-app .w96-footer {
+    margin-top: 0;
+}

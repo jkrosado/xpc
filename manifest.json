@@ -1,0 +1,33 @@
+{
+    "id": "xpcb",
+    "name": "XP Classic Beta",
+    "description": "Classic XP Theme (testing)",
+    "author": "Original Design (C) Microsoft Corp. | Windows 96",
+    "themeType": "normal",
+    "iconTheme": "W:/system/resource/icons/xp",
+    "soundPack": "W:/system/resource/sounds/xp",
+    "stylesheets": [
+        "./classicfixes.css",
+        "./2k.css",
+        "./control.css",
+        "./winv.css",
+        "./start/start-menu.css",
+        "./start/shutdown-menu.css",
+        "./start/start-fixes.css"
+    ],
+    "resourceMap": [
+        { "id": "start", "path": "./images/start.png" },
+        { "id": "cpl_bg", "path": "./images/cpl.png" },
+        { "id": "ginalogo", "path": "./images/winvbnr.png" },
+        { "id": "menu_tex", "path": "./start/img/shell/menu.png" },
+        { "id": "menu_icons", "path": "./start/img/shell/sm-icons.png" },
+        { "id": "smenu_bg", "path": "./start/img/shell/smenu_bg.png" },
+        { "id": "smenu_icons", "path": "./start/img/shell/smenu-icons.png" },
+        { "id": "clarrow", "path": "./start/img/classic/arrow.png" },
+        { "id": "logon_bg", "path": "./start/img/logon/bg.png" },
+        { "id": "logo_bg", "path": "./start/img/logon/logo.png" }
+    ],
+    "scripts": [
+        "./theme.js"
+    ]
+}
