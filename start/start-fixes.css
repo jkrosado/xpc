@@ -1,0 +1,62 @@
+.xpsm-container {
+    border: none!important;
+    border-left: 1px solid #dfdfdf!important;
+    border-top: 1px solid #dfdfdf!important;
+    border-right: 1px solid #000!important;
+    border-bottom: 1px solid #000!important;
+    box-shadow: inset -1px -1px 0px gray, inset 1px 1px 0px #fff!important;
+    background-color: var(--3d-obj-color-primary)!important;
+    background-image: non!important;
+    border-radius: 0px!important;
+    bottom: 28px!important;
+    height: 458px!important;
+}
+
+.xpsm-container>.user-bar {
+    background-image: linear-gradient(90deg, #0A246A 0, #A6CAF0 100%)!important;
+    margin: 2px!important;
+    height: 55px!important;
+}
+
+.xpsm-container>.user-bar>.name {
+    font-weight: bold!important;
+    font-style: italic!important;
+    text-shadow: none!important;
+}
+
+.xpsm-container>.programs-view .separator {
+    border-top: 1px solid #9a9a9a!important;
+    box-shadow: 1px 1px #fff inset!important;
+    background: none!important;
+}
+
+.xpsm-container>.programs-view>.p1 .bottom .all-programs>.arrow {
+    background-image: url("$clarrow$")!important;
+    background-position: unset!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    width: 4px!important;
+    height: 7px!important;
+    image-rendering: pixelated!important;
+    margin-left: 15px!important;
+}
+
+.xpsm-container>.programs-view>.p2 .item {
+    color: black!important;
+}
+
+.xpsm-container>.programs-view .item:hover, .xpsm-container>.programs-view .item.selected, .xpsm-container>.actions-view .item:hover {
+    background-color: #08216B!important;
+}
+
+.xpsm-container>.actions-view .item:not(.xpsm-container>.actions-view .item:hover) {
+    color: black!important;
+}
+
+.xpsm-container>.actions-view .item:hover {
+    color: white!important;
+}
+
+.xpsm-container>.programs-view>.p2 .item:hover {
+    color: white!important;
+}
